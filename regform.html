@@ -1,0 +1,159 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>The Perfect Pod</title>
+    <!----CSS link----->
+    <link rel="Stylesheet" href="bootstrap.css">
+    <style>
+
+
+
+.logo{
+    max-height: 200px;}
+
+      body{
+      
+      margin: 0;
+      
+      padding: 0;
+      
+      font-family: sans-serif;
+      
+      background: url(img/bg1.jpg);
+      }
+      
+      .box{
+      
+      width: 300px;
+      
+      padding: 50px;
+      
+      position: absolute;
+      
+      top: 60%;
+      
+      left: 50%;
+      
+      transform: translate(-50%,-50%);
+      
+      background:  url(img/logo.jpg);
+      
+      text-align: center;
+      opacity: 5;
+      border-style: dashed; 
+      border-color: #fd4766;
+      border-width: 10px;
+      }
+      
+      .box textarea[type = "name"],.box input[type = "name"],.box input[type = "gender"],.box input[type = "phone_no"],.box input[type = "number"],.box input[type = "email"],.box input[type = "text"],.box input[type = "tel"],.box input[type = "password"]{
+          margin-left: -20px;
+          margin-left: -20px;
+          padding: 10px 75px;
+          position: relative;
+          left: 8px;
+          margin-top: 9px;
+          background: none;
+          font-size: 15px;
+          text-align: center;
+          color: #ffffff;
+          border-color:#fd4766;
+      
+      }
+      
+      .box input[type = "submit"]{
+        color: #fff;
+    font-size: 16px;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    padding: 16px 40px;
+    border-radius: 500px;
+    display: inline-block;
+    font-weight: 500;
+    transition: all .4s ease-in-out;
+    background-size: 152% 100%;
+    background: #fd4766;
+    border: 2px solid #fd4766;
+      }
+      
+      .box input[type = "submit"]:hover{
+     background: transparent;
+    border-color: #fd4766;
+    color: #fd4766;
+      
+      }
+      marquee{
+          color: black
+          font-family: cursive;
+          font-weight: 800;
+          font-size: 20px;
+          margin-bottom: 10px;
+      }
+    
+      nav ul li{
+    list-style: none;
+    display: inline-block;
+    padding: 0px 10px;
+}
+nav ul li a{
+    color: #1d1d24;
+    position: relative;
+    padding: 5px 0;
+}
+nav ul li a:hover{
+    color: #fd4766;
+}
+nav ul li a:after{
+    content: "";
+    position: absolute;
+    left: 0;
+    width: 0;
+    height: 3px;
+    background: #fd4766;
+    transition: .3s;
+    bottom: 0;
+}
+nav ul li a:hover:after{
+    width: 100%;
+}
+      .log{
+        height: 20px;
+      }
+</style>
+</head>
+<body>
+    
+      <div class="content">
+
+        <nav>
+            <img src="./img/logi.png" class="logo">
+            <ul >
+                <li><a href="index.html">Home</a></li>
+                <li><a href="episodes.html">Episodes</a></li>
+                <li><a href="#">The Perfect Shot</a></li>
+                <li><a href="#">Blog</a></li>
+                <li><a href="regform.html">Contact</a></li>
+            </ul>
+        </nav>
+   <br> <br>
+  <form class="box" action="mailto:umeiymarhjalo17@gmail.com" method="post" enctype="text/plain">
+    <div class="main_container"> 
+        <marquee behavior="" direction="">Did you like my podcast? leave me a message below.</marquee>
+    <div class="login-form">
+    
+    <input type="text" name="name" id="costum" placeholder="Name"><br> <br>
+    <input type="email" name="Your mail" placeholder="Email"> <br>
+    <input type="number" name="Your Number" placeholder="Phone Number"> <br>
+    <br>
+    <textarea name="name" placeholder="Your message"></textarea>
+   <input type="submit" class="btn" placeholder="Get in touch">
+   </div>
+</form>
+
+<p>Connect with me on Instagram</p>
+<img class="log" src="img/insta.jpg">
+<a href="https://www.instagram.com/the.perfectpod/" class="ig">The Perfect Pod</a>
+
+<a href="https://api.whatsapp.com/send?phone=+2349092566766&text=Hi the perfect pod"> Whatsapp</a>
+</body>
+</html>
